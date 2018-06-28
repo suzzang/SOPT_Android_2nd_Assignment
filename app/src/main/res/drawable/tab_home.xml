@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/main_home_on"
+        android:state_selected="true"/> <!--선택이 되었다면 on 이미지를 보여주겠다-->
+    <item
+        android:drawable="@drawable/main_home_off"
+        android:state_selected="false"/><!--그반대경우-->
+
+</selector>
